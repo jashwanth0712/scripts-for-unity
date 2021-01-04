@@ -11,10 +11,11 @@ public class money : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         score = GetComponent<Text>();
        walet = PlayerPrefs.GetInt("walet");
        walet = scorescript.paisa/2 + walet;
-        //walet = 0;
+        
      
 
     }
